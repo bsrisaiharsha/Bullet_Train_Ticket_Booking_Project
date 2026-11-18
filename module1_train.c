@@ -2,14 +2,23 @@
 
 /* Module 1 owns the train and station master data. */
 Station stations[TOTAL_STATIONS] = {
- {"New Delhi","06:00 AM","06:00 AM"},{"Jaipur","06:44 AM","06:49 AM"},
- {"Ahmedabad","08:30 AM","08:35 AM"},{"Vadodara","08:54 AM","08:59 AM"},
- {"Surat","09:24 AM","09:29 AM"},{"Mumbai","10:13 AM","10:18 AM"},
- {"Pune","10:40 AM","10:45 AM"},{"Nagpur","12:42 PM","12:47 PM"},
- {"Raipur","01:36 PM","01:41 PM"},{"Kolkata","03:54 PM","03:59 PM"},
- {"Bhubaneswar","05:07 PM","05:12 PM"},{"Visakhapatnam","06:27 PM","06:32 PM"},
- {"Hyderabad","08:06 PM","08:11 PM"},{"Bengaluru","09:44 PM","09:49 PM"},
- {"Chennai","10:43 PM","--"}
+{
+    {"NEW DELHI", "-", "6:00"},
+    {"JAIPUR", "7:03", "7:08"},
+    {"AJMER", "7:28", "7:33"},
+    {"UDAIPUR", "8:30", "8:35"},
+    {"AHMEDABAD", "9:30", "9:35"},
+    {"VADODARA", "10:00", "10:05"},
+    {"SURAT", "10:35", "10:40"},
+    {"VAPI", "11:05", "11:10"},
+    {"MUMBAI", "11:40", "11:45"},
+    {"THANE", "11:50", "11:55"},
+    {"PUNE", "12:20", "12:25"},
+    {"HYDERABAD", "14:10", "14:15"},
+    {"BANGALORE", "16:05", "16:10"},
+    {"VELLORE (KATPADI)", "16:48", "16:53"},
+    {"CHENNAI", "17:20", "-"}
+};
 };
 Train trains[TOTAL_TRAINS] = {
  {1,"Bullet Express - Morning",0,"06:00 AM"},{2,"Bullet Express - Midday",0,"09:00 AM"},
